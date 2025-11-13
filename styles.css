@@ -1,0 +1,162 @@
+/* Basic page setup */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f6f9f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container layout */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  padding: 15px 0;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 45px;
+}
+
+.nav a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #007f5f;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: #005f40;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.product-image {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-title {
+  font-size: 28px;
+  color: #00694e;
+  margin-bottom: 10px;
+}
+
+.product-desc {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #0a8042;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #0b6b3b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #095b33;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.feature {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Reviews */
+.reviews {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.reviews h2 {
+  color: #00694e;
+  margin-bottom: 15px;
+}
+
+.review {
+  background-color: #f6f9f6;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #e7f6ed;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: 40px;
+}
+
+.newsletter input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 8px;
+}
+
+.newsletter button {
+  background-color: #0b6b3b;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #095b33;
+}
